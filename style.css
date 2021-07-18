@@ -1,0 +1,324 @@
+*{margin: 0;
+  padding: 0;
+}
+.nav{
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	width:1000px;
+	color: black;
+	
+}
+.nav_right{
+	float: right;
+	text-align: right;
+	font-size: 20px;
+	margin-left: 250px;
+	margin-right: 20px;
+	
+}
+
+
+.img4{
+	margin:200px;
+	padding: 200px;
+}
+
+.nav_right a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+table{
+	width: 100%;
+	
+}
+
+#t01 th{
+	padding: 15px;
+	text-align: left;
+	
+}
+
+
+.img3{
+	max-width: 100%;
+	padding: 50px 0;
+	text-align: center;	
+}
+.tagline{
+	display: flex;
+	align-items: center;
+	text-align: center; 
+	justify-content: space-around;
+	margin-left: 100px;
+}
+.tagline h1{
+	font-size: 40px;
+	margin: 30px 80px;
+	padding: 20px;
+	text-align: center; 
+	align-items: center;
+}
+.quote2 h2{
+	margin: 25px 0;
+	align-items: center;
+	text-align: center;
+}
+.btn{
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px 30px;
+	margin-left: 650px;
+	border-radius: 30px;
+	transition: 1s;
+	animation: pulse 1s linear infinite;
+	
+}
+
+
+.btn:hover{
+	transition: 1s;
+	font-weight: bold;
+	background-color: purple;
+}
+.container{
+	background: radial-gradient(
+#64b3f4,#c2e59c);
+	
+}
+.categories{
+	margin-left: auto;
+	padding: 25px;
+	background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+	
+	
+}
+.cal1{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.container2 h2{
+	text-align: center;
+}
+.container2 h4{
+	font-size: 25px;
+}
+.container2 h6{
+	font-size: 15px;
+}
+.p1,.p2,.p3,.p4,.p11,.p12{
+	width:100%;
+	margin: auto;
+	padding-left:20px;
+	transition: 1s;
+}
+.p1:hover{
+	transform: translateX(25px);
+	transition: 1s;
+
+}
+.p2:hover{
+	transform: translateX(-25px);
+	transition: 1s;
+}
+.p3:hover{
+	transform: translateX(25px);
+	transition: 1s;
+}
+.p4:hover{
+	transform: translateX(-25px);
+	transition: 1s;
+}
+.p11:hover{
+	transform: translateX(25px);
+	transition: 1s;
+}
+.p12:hover{
+	transform: translateX(-25px);
+	transition: 1s;
+}
+.latestp{
+	flex-basis:30%;
+	padding-left:50px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+.p5 img{
+	width: 100%;
+}
+.p6{
+	padding-left:50px;
+}
+.p7 {
+	padding-left:10px;
+	margin-left: 30px;
+	width: 65%;
+
+}
+.p7 img{
+	padding-left:10px;
+	margin-left: 5px;
+	width: 65%;
+}
+.p5:hover{
+	transform: translateY(15px);
+	transition: 1s;
+}
+.p6:hover{
+	transform: translateY(15px);
+	transition: 1s;
+}
+.p7:hover{
+	transform: translateY(15px);
+	transition: 1s;
+}
+.BestSellers{
+	flex-basis:30%;
+	padding-left:50px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 28px;
+
+}
+
+.p8 img{
+	width: 80%;
+}
+.p9{
+	padding-left:50px;
+}
+.p10 {
+	padding-left:20px;
+	margin-left: 70px;
+	width: 65%;
+
+}
+.p10 img{
+	padding-left:10px;
+	margin-left: 30px;
+	width: 65%;
+}
+.p8:hover{
+	transform: translateY(15px);
+	transition: 1s;
+}
+.p9:hover{
+	transform: translateY(15px);
+	transition: 1s;
+}
+.p10:hover{
+	transform: translateY(15px);
+	transition: 1s;
+}
+
+
+.css3_prop{
+	height: 30px;
+}
+.css3_prop .box{
+	margin-left: 350px; 
+	background-color: orange;
+	color: black;
+	text-align: center;
+	align-items: center;
+	font-weight: bold;
+	width:500px;
+}
+
+.footer{
+	background-color: black;
+	color: white;
+	font-size: 14px;
+	padding: 60px 0 25px;
+}
+
+.footer h3{
+	color: red;
+	margin-bottom: 20px;
+}
+ul{
+	font-size: 15px;
+}
+
+.f2 a{
+	text-decoration: none;
+	color: white;
+}
+.f2 a:hover{
+	text-decoration: underline;
+}
+
+.html_form{
+padding : 10px;
+margin: 180px;
+align-content: left;
+text-align: left;
+justify-content: left;
+background-color: orange;
+
+}
+.html_form form{
+box-shadow: 4px 4px 8px black;
+
+}
+.html_form form input{
+padding: 10px;
+border: 3px dotted purple;
+border-radius: 25px;
+}
+
+
+
+.html_form form button{
+background-image: linear-gradient(30deg, red, green, blue);
+padding-top: 20px;
+border: none;
+color: white;
+font-weight: bold;
+font-size: 19px;
+transition: 1s;
+}
+
+.html_form form button:hover{
+cursor: pointer;
+color: blue;
+border: 5px solid red;
+transition: 1s;
+background-color: yellow;
+background-image: none;
+}
+
+
+
+@keyframes pulse{
+	0%{
+		box-shadow: 0 0 0 0 yellow, 0 0 0 0 red;
+	}
+	40%{
+		box-shadow: 0 0 0 1px yellow, 0 0 0 0 red;
+	}
+	80%{
+		box-shadow: 0 0 0 4px yellow, 0 0 0 2px white;
+	}
+	100%{
+		box-shadow: 0 0 0 8px orange, 0 0 0 6px pink;
+	}}
+

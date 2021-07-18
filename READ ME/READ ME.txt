@@ -1,0 +1,9 @@
+Project By PRAKHAR NIGAM
+Email-ID: nigkhar23@gmail.com
+
+For Home Page of the website, open the file --> index.html
+
+All the links to the Google Sheets taking input from the forms (checkout form, address form, registration form)
+are available in the folder: Links to Excel Forms
+
+All the images used in the website can be found in the folder: images
